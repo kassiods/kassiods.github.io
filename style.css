@@ -110,3 +110,26 @@ footer {
     box-shadow: 1px 1px 4px var(--color-dark4);
 }
 /**deixando o site responsivo**/
+@media screen and (max-width: 768px) {
+    .meio {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .meio h1 {
+        font-size: 24px;
+    }
+    .meio p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .meio img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
